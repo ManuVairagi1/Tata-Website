@@ -1,0 +1,232 @@
+.img__size {
+  height: 80px;
+  width: 80px;
+}
+.img__length {
+  text-align: center;
+}
+.map {
+  font-size: 50px;
+  line-height: 37px;
+  color: rgb(8, 8, 8);
+  text-transform: uppercase;
+  font-family: "CopperplateBlackCondensedSSiBlackCondensed";
+  font-weight: 500;
+  margin-bottom: 100px;
+}
+
+.map__image {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.nearbyplaces {
+  color: black;
+  font-size: 40px;
+  margin-top: 20px;
+}
+.distance {
+  border: 1px solid rgb(102, 101, 101);
+  margin-top: 120px;
+}
+
+.table {
+  display: flex;
+  justify-content: space-around;
+}
+
+.college {
+  margin-top: 60px;
+}
+
+.table-cell {
+  font-size: 25px;
+  color: rgb(7, 7, 7);
+  padding: 10px;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* .e__brousher {
+  position: fixed;
+  top: 10%;
+  opacity: 0;
+
+  right: 30%;
+} */
+
+.display {
+  backdrop-filter: blur(10px);
+  opacity: 1;
+}
+footer {
+  background: #3365af;
+
+  color: #e9e9e9;
+  margin-top: 70px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  font-size: 13px;
+  z-index: 1002;
+  margin: auto;
+}
+.inputGroup2 input {
+  background: transparent;
+  border-width: 0 0 1px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  outline: none;
+  padding: 12px 15px;
+  line-height: 1;
+  color: #e9e9e9;
+}
+.inputGroup2 label {
+  position: absolute;
+  left: 8px;
+  bottom: 22px;
+  color: rgba(255, 255, 255, 0.8);
+  transition: all 0.1s linear;
+}
+
+.head-title {
+  background: #e6e6e6;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 25px;
+  margin-bottom: 22px;
+  color: #000;
+}
+section.pricelist .table {
+  margin-bottom: 0;
+}
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+section.pricelist .table tr {
+  border: solid 1px #ececec;
+}
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: grey;
+}
+
+footer.footer {
+  display: none;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 450px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  footer.footer {
+    display: block;
+  }
+}
+
+.unitbox .table {
+  border: 1px solid #3365af;
+}
+.unitbox .table {
+  font-size: 1.6em !important;
+  border: 1px solid #3365af;
+  table-layout: fixed;
+}
+.text-center {
+  text-align: center !important;
+}
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  margin-top: 100px;
+}
+.table {
+  display: table;
+  border-collapse: collapse;
+  width: 100%;
+}
+.unitbox .t-head {
+  background: #3365af;
+  color: #fff;
+}
+.table .row {
+  display: table-row;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.t-head {
+  font-weight: 500;
+}
+.unitbox .table-cell {
+  padding: 12px;
+  width: 25%;
+}
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.table .row {
+  display: table-row;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+.fill-btn-con {
+  display: inline-block;
+  border: 0;
+  color: #ffffff !important;
+  background: #3365af;
+  padding: 13px 44px;
+  line-height: 1;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 12px !important;
+  text-decoration: none !important;
+}
+.fill-btn {
+  color: #3365af;
+}
